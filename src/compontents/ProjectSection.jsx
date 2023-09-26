@@ -20,18 +20,27 @@ const projectsData = [
     description: "Project 2 description",
     image: "/images/project-2.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Emilianoperea1989/E-commerce-React-Perea",
+    previewUrl: "https://e-commerce-emiliano-perea.netlify.app/",
   },
   {
     id: 3,
     title: "E-commerce Application",
     description: "Project 3 description",
     image: "/images/project-3.jpeg",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  }]
+    tag: ["All", "Web", "Mobile" ],
+    gitUrl: "https://github.com/Emilianoperea1989/EcoBrick",
+    previewUrl: "https://ecopre.com.ar/",
+  },
+
+ { id: 4,
+  title: "E-commerce Application",
+  description: "Project 3 description",
+  image: "/images/project-3.jpeg",
+  tag: ["All", "Web", "Mobile" ],
+  gitUrl: "https://github.com/Emilianoperea1989/CorderHouse-Js",
+  previewUrl: "https://emilianoperea1989.github.io/CorderHouse-Js/",
+}]
   
 
 const ProjectsSection = () => {
@@ -81,7 +90,7 @@ const ProjectsSection = () => {
             variants={cardVariants}
             initial="initial"
             animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
+            transition={{ duration: 0.6, delay: index * 0.4 }}
           >
             <ProjectCard
               key={project.id}

@@ -18,8 +18,8 @@ export async function POST( req ,res) {
       react:(
         <>
           <h1>{subject}</h1>
-          <p>{email}</p>
           <p>{message}</p>
+          <p>{email}</p>
         </>
       )
     })

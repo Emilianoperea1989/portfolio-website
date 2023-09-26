@@ -55,10 +55,10 @@ const EmailSection = () => {
                     try my best to get back to you!
                 </p>
                 <div className="socials flex flex-row gap-2">
-                    <Link href="github.com">
+                    <Link href="https://github.com/Emilianoperea1989" target="_blank">
                         <Image className="w-14 h-14 m-2" src={GithubIcon} alt="Github Icon" />
                     </Link>
-                    <Link href="linkedin.com">
+                    <Link href="https://www.linkedin.com/in/emilianoperea/"  target="_blank">
                         <Image className="w-14 h-14 m-2 bg-[#fff] rounded-md p-1" src={LinkedinIcon} alt="Linkedin Icon" />
                     </Link>
                 </div>
@@ -110,6 +110,7 @@ const EmailSection = () => {
                         className="bg-blue-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full">
                         Send Message
                     </button>
+                    { emailSubmitted && (<p className="text-green-500 text-sm mt-2">Email sent successfully!</p>)}
                 </form>
             </div>
         </section>
