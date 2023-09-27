@@ -54,7 +54,7 @@ const HeroSection = () => {
             transition={{duration:0.5}} 
              className='col-span-4 place-self-center mt-4 lg:mt-0'>
                 <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] relative">
-                    <Image src="/images/emi.png"
+                    <Image src="https://res.cloudinary.com/duqilis2i/image/upload/v1695833433/Portfolio/emi_sqm9va.png"
                         alt="Emiliano"
                         className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
                         width={400}

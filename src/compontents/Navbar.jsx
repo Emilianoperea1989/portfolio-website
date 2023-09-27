@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="flex container flex-wrap items-center justify-between mx-auto px-2">
         <Link
           href={"/"} >
-          <img className="w-[80px] md:w-[100px] m-3" src="/images/logo-blanco.png" alt="logo"  />
+          <img className="w-[80px] md:w-[100px] m-3" src="https://res.cloudinary.com/duqilis2i/image/upload/v1695833433/Portfolio/Logo-blanco_todfus.png" alt="logo"  />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
