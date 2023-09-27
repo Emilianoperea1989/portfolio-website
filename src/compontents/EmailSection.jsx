@@ -4,6 +4,7 @@ import GithubIcon from "../../public/github.png";
 import LinkedinIcon from "../../public/linkedin.png";
 import Link from "next/link";
 import Image from "next/image";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const EmailSection = () => {
     const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -40,6 +41,8 @@ const EmailSection = () => {
     };
 
     return (
+        <>
+        <ScrollLink to="contact" smooth={true} duration={500}></ScrollLink>
         <section
             id="contact"
             className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
@@ -114,6 +117,7 @@ const EmailSection = () => {
                 </form>
             </div>
         </section>
+        </>
     );
 };
 
