@@ -4,7 +4,7 @@ import Footer from '@/compontents/Footer';
 import HeroSection from '@/compontents/HeroSection'
 import Navbar from '@/compontents/Navbar';
 import ProjectsSection from '@/compontents/ProjectSection';
-import Image from 'next/image'
+
 
 import 'tailwindcss/tailwind.css';
 
