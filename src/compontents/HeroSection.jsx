@@ -17,7 +17,7 @@ const HeroSection = () => {
                 transition={{duration:0.5}} 
                 className='col-span-8 place-self-center text-center sm:text-left '>
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl  lg:text-8xl lg:leading-normal font-extrabold">
-                        <span className='text-transparent bg-clip-text bg-gradient-to-l from-sky-700 via-cyan-500 to-emerald-300'> Hello, I&apos;m {""}</span>
+                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 via-sky-700 to-blue-900'> Hello, I&apos;m {""}</span>
                         <br />
 
                         <TypeAnimation
@@ -41,8 +41,8 @@ const HeroSection = () => {
                     </h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl '>Web developer from Pilar, Córdoba, Argentina, specialized in HTML, CSS, JavaScript, React, and more.</p>
                     <div>
-                        <Link href="#contact" className='px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-l from-sky-300 via-cyan-400 to-emerald-200 hover:bg-slate-200  text-white'>Hire me</Link>
-                        <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-l from-sky-300 via-cyan-400 to-emerald-200 hover:bg-slate-800 text-white  mt-3'>
+                        <Link href="#contact" className='px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-cyan-600 via-sky-700 to-blue-900 hover:bg-slate-200  text-white'>Hire me</Link>
+                        <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-r from-cyan-600 via-sky-700 to-blue-900 hover:bg-slate-800 text-white  mt-3'>
                             <a href='/CV EMILIANO PEREA.pdf' download className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</a>
                         </button>
                     </div>
